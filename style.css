@@ -1,0 +1,14 @@
+.navbar
+    {
+        background-color: black;
+    }
+.my-navbar .navbar-brand,
+.my-navbar .nav-link 
+    {
+      color: #ffffff;  /* Cor da fonte branca */
+    }
+.my-navbar .navbar-brand:hover,
+.my-navbar .nav-link:hover 
+    {
+      color: #f1c40f;  /* Cor do texto ao passar o mouse (amarelo) */
+    }
