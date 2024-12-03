@@ -1,14 +1,25 @@
 .navbar
     {
         background-color: black;
-    }
-.my-navbar .navbar-brand,
-.my-navbar .nav-link 
+    }   
+.nav-link 
     {
-      color: #ffffff;  /* Cor da fonte branca */
+        color: #ffffff;  /* Cor da fonte branca */
     }
-.my-navbar .navbar-brand:hover,
-.my-navbar .nav-link:hover 
+.navbar-brand:hover,
+.nav-link:hover 
     {
-      color: #f1c40f;  /* Cor do texto ao passar o mouse (amarelo) */
+        color: #f1c40f;  /* Cor do texto ao passar o mouse (amarelo) */
     }
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show 
+    {
+        color: #f1c40f;
+    }
+.navbar-brand
+    {
+        background-color: #ffffff;
+        color: black;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }    
